@@ -1,0 +1,51 @@
+{
+  "_from": "easyscroll",
+  "_id": "easyscroll@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-6v+/TFD0QVUfKxIi+sEWJqa8Y5U=",
+  "_location": "/easyscroll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "easyscroll",
+    "name": "easyscroll",
+    "escapedName": "easyscroll",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/easyscroll/download/easyscroll-1.0.1.tgz",
+  "_shasum": "eaffbf4c50f441551f2b1222fac11626a6bc6395",
+  "_spec": "easyscroll",
+  "_where": "E:\\work\\manage\\iview\\iview-admin-mi",
+  "author": {
+    "name": "GarveyZuo"
+  },
+  "bugs": {
+    "url": "https://github.com/GarveyZuo/EasyScroll/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "this is a tiny  scroll bar plugin for vue2.0",
+  "homepage": "https://github.com/GarveyZuo/EasyScroll#readme",
+  "keywords": [
+    "scroll",
+    "vue"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "easyscroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GarveyZuo/EasyScroll.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.1"
+}
