@@ -171,6 +171,7 @@ export default {
                                 Cookies.set('cloud_status', data.data.cloud_status);
                                 Cookies.set('is_direct', data.data.is_direct);
                                 Cookies.set('merchant_type', data.data.merchant_type);
+                                Cookies.set('is_agreement', data.data.is_agreement);
                                 // Cookies.set('user_power', JSON.stringify(defaultData.power));
                                 _this.$store.commit('setAvator', data.data.logo);
                                 _this.$store.commit('setPower');

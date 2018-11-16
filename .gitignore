@@ -7,3 +7,5 @@ node_modules
 \.settings/
 src/config/env.js
 build/
+#svn ignore
+.svn/

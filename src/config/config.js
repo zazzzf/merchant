@@ -1,7 +1,7 @@
 import Env from './env';
-// const server_route = 'http://tapi.yugoubao.net/index.php?s=';
+ const server_route = 'http://tapi.yugoubao.net/index.php?s=';
 //生产环境
-const server_route = 'https://wktapi.yugoubao.net/index.php?s=';
+//const server_route = 'https://wktapi.yugoubao.net/index.php?s=';
 let config = {
     env: Env,
     apiPath: server_route,
@@ -24,7 +24,9 @@ let config = {
     		'yunlianhui': server_route + 'wkmerchant/merchant_basics/bindingPhone',
     		'modifyPassword': server_route + 'wkmerchant/merchant_basics/updateMerchantUserPassword',
             'addmember':server_route +'wkmerchant/member/addmember',
-    		'modifyCashPassword': server_route + 'wkmerchant/merchant_basics/updateMerchantPassword'
+            'modifyCashPassword': server_route + 'wkmerchant/merchant_basics/updateMerchantPassword',
+            'agreementData': server_route + 'wkmerchant/statistic/agreement',
+            'agreementCode': server_route + 'wkmerchant/statistic/agreeAgreement'
     	},
     	'home': {
     		'count': server_route + 'wkmerchant/statistic/bases',
